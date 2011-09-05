@@ -8,10 +8,11 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
+print PROJECT_DIR
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(VAR_ROOT, 'dev.db'),
+        'NAME': os.path.join(PROJECT_DIR, PROJECT_MODULE_NAME, 'dbs', 'ex1.db'),
     }
 }
 
