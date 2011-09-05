@@ -82,5 +82,4 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'south',
 
-    'examples.apps.ex1_migration_state',
 )
