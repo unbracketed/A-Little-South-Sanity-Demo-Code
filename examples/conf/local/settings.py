@@ -8,7 +8,6 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
-print PROJECT_DIR
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
