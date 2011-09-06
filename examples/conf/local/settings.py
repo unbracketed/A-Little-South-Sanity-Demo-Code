@@ -11,7 +11,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_DIR, PROJECT_MODULE_NAME, 'dbs', 'schemamigration.db'),
+        'NAME': os.path.join(PROJECT_DIR, PROJECT_MODULE_NAME, 'dbs', 'convert_this_app.db'),
     }
 }
 
@@ -21,5 +21,5 @@ INSTALLED_APPS += (
     'django.contrib.admin',
     'django.contrib.admindocs',
 
-    'examples.apps.schemamigration',
+    'examples.apps.convert_this_app',
 )
